@@ -1,0 +1,29 @@
+{
+  "name": "test-slack-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soficoop/test-slack-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soficoop/test-slack-bot/issues"
+  },
+  "homepage": "https://github.com/soficoop/test-slack-bot#readme",
+  "dependencies": {
+    "@slack/bolt": "^3.11.0",
+    "@slack/socket-mode": "^1.3.0-rc.1",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
